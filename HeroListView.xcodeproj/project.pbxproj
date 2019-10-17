@@ -17,6 +17,7 @@
 		3903B9B4235865AB0068EFF3 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903B9B3235865AB0068EFF3 /* HeroCell.swift */; };
 		3903B9B623586A630068EFF3 /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903B9B523586A630068EFF3 /* HeroModel.swift */; };
 		3903B9B8235875CD0068EFF3 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903B9B7235875CD0068EFF3 /* HeroViewModel.swift */; };
+		3903B9C2235887DE0068EFF3 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903B9C1235887DE0068EFF3 /* File.swift */; };
 		D9EE058B0C8E096C9E987B61 /* Pods_HeroListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA771AA87BB7E74BC013ED2 /* Pods_HeroListView.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		3903B9B3235865AB0068EFF3 /* HeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		3903B9B523586A630068EFF3 /* HeroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
 		3903B9B7235875CD0068EFF3 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		3903B9C1235887DE0068EFF3 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		9DA771AA87BB7E74BC013ED2 /* Pods_HeroListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeroListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CC7C09E541AD61F1BBD880 /* Pods-HeroListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroListView.release.xcconfig"; path = "Target Support Files/Pods-HeroListView/Pods-HeroListView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 		3903B99C235852800068EFF3 /* HeroListView */ = {
 			isa = PBXGroup;
 			children = (
+				3903B9C0235887CE0068EFF3 /* New Group */,
 				3903B9BF235881530068EFF3 /* Libs */,
 				3903B9BE235881330068EFF3 /* Controller */,
 				3903B9BD235880FA0068EFF3 /* ViewModel */,
@@ -132,6 +135,14 @@
 				3903B9AF235853970068EFF3 /* Service.swift */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		3903B9C0235887CE0068EFF3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3903B9C1235887DE0068EFF3 /* File.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		96B1EB63673514F12F504D90 /* Pods */ = {
@@ -271,6 +282,7 @@
 				3903B9A0235852800068EFF3 /* ViewController.swift in Sources */,
 				3903B99E235852800068EFF3 /* AppDelegate.swift in Sources */,
 				3903B9B223585EC20068EFF3 /* HeroQuery.swift in Sources */,
+				3903B9C2235887DE0068EFF3 /* File.swift in Sources */,
 				3903B9B0235853970068EFF3 /* Service.swift in Sources */,
 				3903B9B623586A630068EFF3 /* HeroModel.swift in Sources */,
 			);
